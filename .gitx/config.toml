@@ -1,0 +1,23 @@
+[commit]
+types_inc_minor = ["feat"]
+
+[commit.types]
+build = "Build system"
+cd = "Continuous Delivery"
+chore = "Other changes"
+ci = "Continuous Integration"
+docs = "Documentation"
+feat = "New features"
+fix = "Bug fixes"
+perf = "Performance Improvements"
+refactor = "Code refactoring"
+style = "Code styling"
+test = "Testing"
+
+[hooks]
+
+[changelog]
+types = ["feat", "fix", "docs", "perf", "test", "build", "ci", "cd", "chore"]
+
+[release]
+bump_commands = []
